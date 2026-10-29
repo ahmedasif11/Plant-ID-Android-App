@@ -1,0 +1,4 @@
+// Root Gradle file. Only the Android application plugin is required.
+plugins {
+    alias(libs.plugins.android.application) apply false
+}
